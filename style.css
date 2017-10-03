@@ -5,7 +5,10 @@
 html{
   background-color: #FBFFC9;
 }
-
+main {
+    width: 85%;
+    margin: 0 auto;
+}
 .top{
   background-color: #D3E0AD;
   text-align: center;
