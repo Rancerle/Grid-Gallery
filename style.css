@@ -89,13 +89,13 @@ img{
 }
 
 @media screen and (min-width: 550px) {  /*-- for screens above 550px  --*/
-  .grid-item {width: 50%;} /*-- sets card width to half of the page --*/
+  .grid-container {grid-template-columns: repeat(2, 1fr);}
 }
 @media screen and (min-width: 1024px) { /*-- for screens above 1024px  --*/
-  .grid-item {width: 33.33333%;} /*-- sets card width to one-third of the page --*/
+  .grid-container {grid-template-columns: repeat(3, 1fr); }
 }
 @media screen and (min-width: 1280px) { /*-- for screens above 1280px  --*/
-  .grid-item {width: 25%;} /*-- sets card width to one-quarter of the page --*/
+  .grid-container {grid-template-columns: repeat(4, 1fr);} 
 }
 
 .bottom{
