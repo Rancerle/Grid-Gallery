@@ -52,6 +52,7 @@ ul li {
 
 .grid-item{
   text-align: center;
+  position: relative;
   border: 1px solid black;
   background-color: white;
   border-radius: 12px;
