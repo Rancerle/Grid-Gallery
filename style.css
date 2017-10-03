@@ -6,9 +6,130 @@ html{
   background-color: #FBFFC9;
 }
 
+.top{
+  background-color: #D3E0AD;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+}
+
+ul li {
+  display: inline-block;
+  padding-left: 1em;
+}
+
+.top #banner{
+  display: inline-block;
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
+}
+
+.top .menu {
+  float: left;
+  margin-left: 1em;
+}
+.social-links {
+  float: right;
+  margin-right: 1em;
+}
+
 .grid-container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-gap: 3em 1em;
+}
+
+.grid-item{
+  border: 1px solid black;
+}
+
+.item-title{
+  font-family: 'Dancing Script', cursive;
+  align-self: center;
+  font-size: 25px;
+}
+
+.item-text{
+  font-family: 'Libre Baskerville', serif;
+  align-self: center;
+  font-size: 10px;
+  padding: .5rem .5rem
+}
+
+.item-button{
+  align-self: center;
+  margin: 5px;
+}
+
+.item-image { /*-- general styles for card images --*/
+  background-size: cover;  /*-- sets images size to cover --*/
+  background-position: center center;  /*-- certers verically and horizontally --*/
+  filter: contrast(70%); /*-- adds 70% contrast filter to image --*/
+  transition: filter 0.3s ease-in;  /*-- sets filter transition speed and easing --*/
+}
+.grid-item:hover .item-image {
+    filter: contrast(100%);  /*-- transitions to 100% filter on hover --*/
+}
+
+.grid-item:hover{
+  border: 2px solid #D4CD0B;
+}
+
+img{
+  width: 100%;
+}
+
+@media screen and (min-width: 550px) {  /*-- for screens above 550px  --*/
+  .grid-item {width: 50%;} /*-- sets card width to half of the page --*/
+}
+@media screen and (min-width: 1024px) { /*-- for screens above 1024px  --*/
+  .grid-item {width: 33.33333%;} /*-- sets card width to one-third of the page --*/
+}
+@media screen and (min-width: 1280px) { /*-- for screens above 1280px  --*/
+  .grid-item {width: 25%;} /*-- sets card width to one-quarter of the page --*/
+}
+
+.bottom{
+  display:inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  background-color: #D3E0AD;
+  border: 1px solid black;
+  align-content: center;
+}
+
+.social{
+  display: inline-block;
+  float: left;
+  margin-left: 1em;
+}
+
+footer{
+  display: inline-block;
+}
+
+i{
+  color: black;
+}
+
+i:hover{
+  color: #191970;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: #191970;
 }
