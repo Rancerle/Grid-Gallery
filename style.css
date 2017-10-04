@@ -3,14 +3,14 @@
 }
 
 html{
-  background-color: #FBFFC9;
+    background: linear-gradient(to bottom, #1e5799 0%,#7db9e8 50%,#1e5799 100%);
 }
 main {
     width: 85%;
     margin: 0 auto;
 }
 .top{
-  background-color: #D3E0AD;
+  background-color: #006fa3;
   text-align: center;
   width: 100%;
   display: inline-block;
@@ -33,7 +33,7 @@ ul li {
 .top #banner{
   display: inline-block;
   font-size: 40px;
-  font-family: 'Lobster', cursive;
+  font-family: 'PT Serif', serif;
 }
 
 .top .menu {
@@ -57,20 +57,20 @@ ul li {
   text-align: center;
   position: relative;
   border: 1px solid black;
-  background-color: white;
+  background-color: #dbdbdb;
   border-radius: 12px;
   align-content: center;
 }
 
 .item-title{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Oswald', sans-serif;
   align-self: center;
   font-size: 25px;
 }
 
 .item-text{
-  font-family: 'Libre Baskerville', serif;
-  align-self: center;
+  font-family: 'Droid Serif', serif;
+  text-align: center;
   font-size: 10px;
   padding: .5rem .5rem
 }
@@ -78,6 +78,16 @@ ul li {
 .item-button{
   align-self: center;
   margin: 5px;
+}
+
+button{
+  background-color: #dbdbdb;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+button:hover{
+  background-color: #006fa3;
 }
 
 .item-image { /*-- general styles for card images --*/
@@ -91,7 +101,7 @@ ul li {
 }
 
 .grid-item:hover{
-  border: 2px solid #D4CD0B;
+  border: 2px solid #1faff2;
 }
 
 img{
@@ -115,7 +125,7 @@ img{
   text-align: center;
   width: 100%;
   padding: 5px;
-  background-color: #D3E0AD;
+  background-color: #006fa3;
   border: 1px solid black;
   align-content: center;
   border-radius: 12px;
@@ -136,7 +146,7 @@ i{
 }
 
 i:hover{
-  color: #191970;
+  color: #a0efb7;
 }
 
 a{
@@ -144,5 +154,5 @@ a{
 }
 
 a:hover{
-  color: #191970;
+  color: #a0efb7;
 }
