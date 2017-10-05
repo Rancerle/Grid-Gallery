@@ -51,12 +51,6 @@ ul li {
   height: auto;
   position: relative;
   margin: auto;
-  filter: contrast(70%); /*-- adds 70% contrast filter to image --*/
-  transition: filter 0.3s ease-in;  /*-- sets filter transition speed and easing --*/
-}
-
-.slideshow-container:hover {
-    filter: contrast(100%);  /*-- transitions to 100% filter on hover --*/
 }
 
 .mySlides-fade {
